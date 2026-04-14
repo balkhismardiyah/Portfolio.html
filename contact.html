@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Portfolio Saya</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <img src="img/profile.jpeg" alt="Foto profil" class="profile-img">
+      <h1>Balkhis Mardiyah</h1>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+        <li><a href="about.html"><i class="fa-regular fa-user"></i><span>About</span></a></li>
+        <li><a href="resume.html"><i class="fa-regular fa-file-lines"></i><span>Resume</span></a></li>
+        <li><a href="portfolio.html"><i class="fa-regular fa-image"></i><span>Portfolio</span></a></li>
+        <li><a href="services.html"><i class="fa-solid fa-briefcase"></i><span>Services</span></a></li>
+        <li><a href="contact.html" class="active"><i class="fa-regular fa-envelope"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <section class="section light-bg">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-text">
+          Anda bisa menghubungi saya melalui kontak berikut:
+        </p>
+        <br>
+        <p class="section-text">
+          Email: balkhismardiyah@gmail.com<br>
+          WhatsApp: 08558900042<br>
+          Instagram: @balkhis_<br>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const mobileToggle = document.getElementById("mobileToggle");
+    const sidebar = document.getElementById("sidebar");
+
+    mobileToggle.addEventListener("click", function () {
+      sidebar.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>

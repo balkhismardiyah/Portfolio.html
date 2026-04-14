@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Portfolio Saya</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <img src="img/profile.jpeg" alt="Foto profil" class="profile-img">
+      <h1>Balkhis Mardiyah</h1>
+
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+        <li><a href="about.html"><i class="fa-regular fa-user"></i><span>About</span></a></li>
+        <li><a href="resume.html"><i class="fa-regular fa-file-lines"></i><span>Resume</span></a></li>
+        <li><a href="portfolio.html"><i class="fa-regular fa-image"></i><span>Portfolio</span></a></li>
+        <li><a href="services.html" class="active"><i class="fa-solid fa-briefcase"></i><span>Services</span></a></li>
+        <li><a href="contact.html"><i class="fa-regular fa-envelope"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-text">
+          Saya menyediakan beberapa layanan pembuatan dan pengembangan website yang modern, responsif, dan profesional.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card premium-service">
+            <div class="service-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h3>Website Portfolio</h3>
+            <p>
+              Pembuatan website portfolio pribadi untuk menampilkan profil, skill, resume, dan project secara profesional.
+            </p>
+            <div class="service-meta">
+              <span>Personal</span>
+              <span>Modern</span>
+            </div>
+          </div>
+
+          <div class="service-card premium-service">
+            <div class="service-icon">
+              <i class="fa-solid fa-bullhorn"></i>
+            </div>
+            <h3>Landing Page</h3>
+            <p>
+              Landing page untuk promosi produk, jasa, atau event dengan tampilan menarik dan fokus pada konversi.
+            </p>
+            <div class="service-meta">
+              <span>Marketing</span>
+              <span>Responsive</span>
+            </div>
+          </div>
+
+          <div class="service-card premium-service">
+            <div class="service-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <h3>Company Profile</h3>
+            <p>
+              Website company profile yang rapi dan profesional untuk memperkuat identitas bisnis.
+            </p>
+            <div class="service-meta">
+              <span>Business</span>
+              <span>Branding</span>
+            </div>
+          </div>
+
+          <div class="service-card premium-service">
+            <div class="service-icon">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h3>Redesign Website</h3>
+            <p>
+              Mendesain ulang tampilan website lama agar lebih modern, bersih, dan nyaman digunakan.
+            </p>
+            <div class="service-meta">
+              <span>UI Refresh</span>
+              <span>Clean Design</span>
+            </div>
+          </div>
+
+          <div class="service-card premium-service">
+            <div class="service-icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <h3>Website Sekolah</h3>
+            <p>
+              Website sekolah untuk menampilkan profil, berita, pengumuman, galeri, dan kontak institusi.
+            </p>
+            <div class="service-meta">
+              <span>Education</span>
+              <span>Informative</span>
+            </div>
+          </div>
+
+          <div class="service-card premium-service">
+            <div class="service-icon">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h3>Maintenance Web</h3>
+            <p>
+              Layanan update konten, perbaikan tampilan, dan perawatan website agar tetap optimal.
+            </p>
+            <div class="service-meta">
+              <span>Support</span>
+              <span>Update</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const mobileToggle = document.getElementById("mobileToggle");
+    const sidebar = document.getElementById("sidebar");
+
+    mobileToggle.addEventListener("click", function () {
+      sidebar.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
+</html>
